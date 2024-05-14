@@ -12,8 +12,8 @@ model_name = "Custom-sklearn-model-" + strftime("%Y-%m-%d-%H-%M-%S", gmtime())
 # Create an SKLearnModel object
 model = SKLearnModel(
     name=model_name,
-    model_data="s3://sagemaker-eu-north-1-471112704729/custom-sklearn8-2024-05-14-11-17-29-125/output/model.tar.gz",
-    role="arn:aws:iam::471112704729:role/SageMaker_1",
+    model_data="your-model-path-here",
+    role="your-role-path-here",
     entry_point="script.py",
     framework_version=FRAMEWORK_VERSION,
 )
