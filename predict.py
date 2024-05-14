@@ -8,7 +8,7 @@ from data_handling import testX, features
 sagemaker_runtime = boto3.client('sagemaker-runtime')
 
 # Specify your endpoint name
-endpoint_name = 'Custom-sklearn-model-2024-05-14-13-00-21'
+endpoint_name = 'your-endpoint-name'
 
 # Prepare the input data for prediction
 input_data = testX[features][0:2].values.tolist()
