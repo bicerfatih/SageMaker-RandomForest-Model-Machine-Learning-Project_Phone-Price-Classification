@@ -11,7 +11,7 @@ FRAMEWORK_VERSION = "0.23-1"
 # Create an SKLearn estimator object
 sklearn_estimator = SKLearn(
     entry_point="script.py",  # Specify the entry point script for training
-    role="arn:aws:iam::471112704729:role/SageMaker_1",  # IAM role for SageMaker
+    role="your-role-path-here",  # IAM role for SageMaker
     instance_count=1,  # Number of instances for training
     instance_type="ml.m5.large",  # Type of instance to use
     framework_version=FRAMEWORK_VERSION,  # Framework version to use
