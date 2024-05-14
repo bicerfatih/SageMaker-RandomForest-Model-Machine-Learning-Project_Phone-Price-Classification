@@ -18,7 +18,7 @@ bucket = 'sagemakerfbicer'
 print("Using bucket " + bucket)
 
 # Define the S3 key prefix for storing training data
-sk_prefix = "sagemaker/mobile_price_classification/sklearncontainer"
+sk_prefix = "your-s3-bucket-key-prefix-here"
 
 # Upload the training data to S3 and get the S3 URI for the training data
 trainpath = sess.upload_data(
