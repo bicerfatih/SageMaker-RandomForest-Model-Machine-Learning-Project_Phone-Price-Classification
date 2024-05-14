@@ -1,4 +1,4 @@
-# SageMaker RandomForest Model Machine Learning Project - Phone Price Classification 
+# SageMaker RandomForest Model Machine Learning Project - Mobile Phone Price Classification 
 
 This repository contains the code for a machine learning project that uses Amazon SageMaker to train, deploy, and make predictions with a RandomForest model for mobile phone price classification.
 
